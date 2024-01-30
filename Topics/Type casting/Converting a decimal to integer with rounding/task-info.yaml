@@ -1,0 +1,29 @@
+type: code
+files:
+  - name: src/Main.java
+    visible: true
+    text: |-
+      import java.util.Scanner;
+      
+      public class Main {
+          public static void main(String[] args) {
+              // Create new Scanner object to take user input
+              Scanner scanner = new Scanner(System.in);
+      
+              // Read the decimal number
+              double decimalNumber = scanner.nextDouble();
+      
+              // Convert the decimal number to integer and print the result
+              //.. your code here
+      
+              scanner.close();
+          }
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/41366#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Mon, 22 Jan 2024 07:33:03 UTC"
+record: -1
+submission_language: java17

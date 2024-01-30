@@ -1,0 +1,40 @@
+<h2>One-line condition with ternary operator</h2>
+<div class="step-text">
+<p>Quite often you may need to assign different values to a variable depending on a certain condition. You may do it conveniently with the help of the <strong>ternary operator</strong>. It provides a compact way to express simple conditional statements. Instead of writing lengthy <code class="language-java">if-else</code> constructs for basic conditions, you can use the ternary operator to achieve the same result in a more concise manner.</p>
+<h5 id="what-is-the-ternary-operator">What is the ternary operator?</h5>
+<p>The ternary operator is an operator which evaluates a condition and chooses one of two cases to execute. It is also called the <strong>conditional operator</strong>. The operator can be considered as a form of the <code class="language-java">if</code>-then-<code class="language-java">else</code> statement. The ternary operator should not be confused with the conditional statement, despite their similarity. This operator can be used in places where an expression is expected.</p>
+<p>Sometimes <strong>the ternary operator</strong> is more readable and concise than the corresponding <strong>if statement</strong>.</p>
+<p>Let's start learning this operator with an example. Suppose we have to find the maximum of two int variables, <code class="language-java">a</code> and <code class="language-java">b</code>. It is easy to write using a conditional statement:</p>
+<pre><code class="language-java">int a = ...;
+int b = ...;
+int max = ...;
+
+if (a &gt; b) {
+    max = a;
+} else {
+    max = b;
+}</code></pre>
+<p>Here is what an equivalent ternary operator looks like:</p>
+<pre><code class="language-java">int max = a &gt; b ? a : b;</code></pre>
+<p>This code is more concise than the code above, isn't it?</p>
+<p>The general syntax of the ternary operator is the following:</p>
+<pre><code class="language-java">result = condition ? trueCase : elseCase;</code></pre>
+<p>It includes two special symbols <code class="language-java">?</code> and <code class="language-java">:</code>.</p>
+<p>Here, the <code class="language-java">condition</code> is a Boolean expression that evaluates to either <code class="language-java">true</code> or <code class="language-java">false</code>. If this expression is <code class="language-java">true</code>, the ternary operator evaluates <code class="language-java">trueCase</code>, otherwise <code class="language-java">elseCase</code> is evaluated. It is important that <code class="language-java">trueCase</code> and <code class="language-java">elseCase</code> are expressions which can be reduced to a common type. This type determines the type of the <code class="language-java">result</code>.</p>
+<h5 id="usage-example">Usage example</h5>
+<p>Let's consider another example that prints whether a number is even or odd.</p>
+<pre><code class="language-java">int num = ...;  // it's initialized by a value
+System.out.println(num % 2 == 0 ? "even" : "odd");</code></pre>
+<p>This ternary operator consists of three operands: the value of the expression <code class="language-java">num % 2 == 0</code>, and two string literals <code class="language-java">"even"</code> and <code class="language-java">"odd"</code>. Its result type is <code class="language-java">String</code>.</p>
+<p> </p>
+<p>Note: Java allows us to nest one ternary operator into another one, but it can be less readable than the corresponding conditional statement. If you do this, be careful.</p>
+<p> </p>
+<p>Imagine you need to compare two integer numbers and print <code class="language-java">equal</code> in case they are equal, <code class="language-java">more</code> if the first one has a bigger value than the second and <code class="language-java">less</code> otherwise. The task can be solved using a combination of 2 ternary operators:</p>
+<pre><code class="language-java">int a = ...; // it's initialized by a value
+int b = ...; // it's initialized by a value
+String result = a == b ? "equal" :
+                a &gt; b ? "more" : "less";</code></pre>
+<p>At first, the outer ternary operator checks equality of <code class="language-java">a</code> and <code class="language-java">b</code> numbers. If it is true, <code class="language-java">equal</code> is printed, otherwise, the nested ternary operator <code class="language-java">a &gt; b ? "more" : "less"</code> is calculated. To improve readability, the whole expression is divided into two lines.</p>
+<h5 id="conclusion">Conclusion</h5>
+<p>The ternary operator in Java is a concise way to evaluate a condition and assign values to a variable based on that condition. It is similar to an <code class="language-java">if-else</code> statement but can be more readable and concise in certain situations. The syntax is <code class="language-java">result = condition ? trueCase : elseCase</code>, and it's useful for making quick decisions in code. However, nesting ternary operators should be done with caution as it can reduce readability.</p>
+</div>

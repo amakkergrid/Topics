@@ -1,0 +1,36 @@
+type: code
+files:
+  - name: src/Main.java
+    visible: true
+    text: |-
+      import java.util.Scanner;
+      
+      public class Main {
+          public static void main(String[] args) {
+              Scanner scanner = new Scanner(System.in);
+              String name = scanner.nextLine();
+              int price = scanner.nextInt();
+      
+              // create instance of the Drink class and print the cost of the drink
+      
+          }
+      }
+      
+      class Drink {
+          // declare attributes
+          private String name;
+          private int price;
+      
+          // create constructor to initialize attributes
+      
+      
+          // create method getPrice that returns the price of the drink
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/41048#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Tue, 23 Jan 2024 05:30:40 UTC"
+record: -1
+submission_language: java17

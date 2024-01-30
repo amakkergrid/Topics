@@ -1,0 +1,26 @@
+type: code
+files:
+  - name: src/Main.java
+    visible: true
+    text: |-
+      import java.util.Scanner;
+      public class Main {
+          public static void main(String[] args) {
+              // Getting the input from the user
+              Scanner scanner = new Scanner(System.in);
+              int input = scanner.nextInt();
+      
+              // Write your condition here using the ternary operator
+              String result = /* Your code goes here */;
+      
+              System.out.println(result);
+          }
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/41347#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Mon, 22 Jan 2024 05:14:30 UTC"
+record: -1
+submission_language: java17

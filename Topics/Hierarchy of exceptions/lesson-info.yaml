@@ -1,0 +1,8 @@
+content:
+  - Theory
+  - Subclasses of Exception
+  - Base classes of RuntimeException
+  - UncheckedException
+  - Overview the hierarchy
+  - Base class
+  - Handling exceptions based on input range

@@ -1,0 +1,58 @@
+content:
+  - Introduction to Java
+  - Comparing values. Relational operators
+  - Conditional statement
+  - One-line condition with ternary operator
+  - Increment and decrement
+  - While and do-while loops
+  - For-loop
+  - Multiple conditions  switch
+  - Type casting
+  - Calling methods
+  - Declaring methods
+  - Method  main
+  - Functional decomposition
+  - Primitive and reference types
+  - Arrays as parameters
+  - String
+  - Defining classes
+  - Grouping classes with packages
+  - Instance methods
+  - Initializing new instances. Constructor
+  - Getters and setters
+  - Keyword  super
+  - Static members
+  - Overloading
+  - Floating-point types
+  - Reading user's input with Scanner
+  - Processing strings
+  - Polymorphism
+  - Hierarchy of exceptions
+  - Throwing exceptions
+  - Custom exceptions
+  - NullPointerException
+  - Array exceptions
+  - Runtime type checking
+  - Abstract class
+  - Declaring functionality with interfaces
+  - Default methods
+  - Inner classes
+  - Nested classes
+  - Anonymous class
+  - Introduction to generic programming
+  - Generic methods
+  - Generics and Object
+  - Type Bounds
+  - Recursion
+  - Lambda expressions
+  - Functional interfaces
+  - Method references
+  - Standard functional interfaces
+  - Currying
+  - Optional
+  - Multidimensional array
+  - Iterating over arrays
+  - File class
+  - Functional data processing with streams
+  - Reduction methods
+  - Collectors

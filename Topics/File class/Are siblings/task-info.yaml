@@ -1,0 +1,38 @@
+type: code
+custom_name: Are siblings?
+files:
+  - name: src/Main.java
+    visible: true
+    highlight_level: NONE
+    text: |-
+      import java.io.File;
+      
+      class Siblings {
+      
+          public static boolean areSiblings(File f1, File f2) {
+              // implement me
+          }
+      }
+    learner_created: false
+  - name: src/help.java
+    visible: true
+    learner_created: true
+feedback_link: https://hyperskill.org/learn/step/8095#comment
+status: Failed
+feedback:
+  message: |-
+    Compilation error
+    Main.java:9: error: class help is public, should be declared in a file named help.java
+    public class help {
+           ^
+    Main.java:39: error: cannot find symbol
+            System.out.println(Siblings.areSiblings(f1, f2));
+                               ^
+      symbol:   variable Siblings
+      location: class FileUtil
+    2 errors
+
+    Please do not declare public classes.
+  time: "Mon, 29 Jan 2024 07:44:26 UTC"
+record: -1
+submission_language: java17

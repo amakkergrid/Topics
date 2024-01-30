@@ -1,0 +1,9 @@
+custom_name: Method "main"
+content:
+  - Theory
+  - "Print  Hello, Java"
+  - Print  We are robots
+  - Invoking a greeting method within another method
+  - Select all correct statements
+  - Fixing the main method
+  - No main args

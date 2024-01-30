@@ -1,0 +1,36 @@
+type: code
+files:
+  - name: src/Main.java
+    visible: true
+    text: |-
+      // Import the required libraries
+      import java.util.Scanner;
+      
+      // Main method
+      public class Main {
+          public static void main(String[] args) {
+              Scanner scanner = new Scanner(System.in);
+              String animalType = scanner.nextLine();
+      
+              // Your code here
+      
+              scanner.close();
+          }
+      }
+      
+      // Create abstract Animal class
+      // Your code here
+      
+      // Create Dog class, subclass of Animal
+      // Your code here
+      
+      // Create Cat class, subclass of Animal
+      // Your code here
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/41124#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 25 Jan 2024 04:53:17 UTC"
+record: -1
+submission_language: java17

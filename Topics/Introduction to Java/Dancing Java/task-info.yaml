@@ -1,0 +1,28 @@
+type: sorting
+options:
+  - "\_ \_}"
+  -        System.out.println("Oh wanna dance with somebody!");
+  - "\_ \_public static void main(String[] args) {"
+  - "}"
+  - "public class Main {"
+files:
+  - name: src/Task.java
+    visible: true
+    text: |
+      // You can experiment here, it won’t be checked
+      
+      public class Task {
+        public static void main(String[] args) {
+          // put your code here
+        }
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/38630#comment
+status: Solved
+record: -1
+ordering:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
